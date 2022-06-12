@@ -43,16 +43,24 @@ h1{
 margin-right: -50px;
 }
 
+@media (min-width: 760px) {
+    .fix{
+        display: flex;
+        align-items: center;
+        margin-left: 200px;
+     
+    }
+    
+    }
 
-
-.fix{
+/* .fix{
 display: flex;
 align-items: center;
 margin-left: 200px;
 
 
 
-}
+} */
 table{
 border-collapse: collapse;
 width: 50%;
@@ -81,9 +89,11 @@ margin-right: 15px;
 }
 @media (max-width: 760px) {
 .fix{
-align-items: center;
+    
+/* align-items: center; */
 display: inline-block;
- 
+ margin-left: 25%;
+ margin-right: 25%;
 }
 
 }
