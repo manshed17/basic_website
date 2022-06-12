@@ -1,0 +1,128 @@
+.sub, .sub1, .sub2{
+    flex: 1;
+}
+ 
+ body{
+     background-image: url("https://cdn.primedia.co.za/primedia-broadcasting/image/upload/c_fill,h_436,w_700/txzhvy8dgxs9l5jcr0d7");
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+ .shad{
+width: 120px;
+
+margin: auto;
+display: block;
+
+}
+.citypicfix{
+width: 20%;
+height: auto;
+margin-right: 50px;
+
+
+}
+.wrp{
+width: 70%;
+height: auto;
+
+}
+.sand{
+width: 150px;
+height: auto;
+text-align: right;
+margin-left: 20px;
+
+}
+.subs{
+display: flex;
+
+}
+
+
+h1{
+margin-right: -50px;
+}
+
+
+
+.fix{
+display: flex;
+align-items: center;
+margin-left: 200px;
+
+
+
+}
+table{
+border-collapse: collapse;
+width: 50%;
+}
+td{
+border: 2px solid black;
+margin: 1em;
+padding: 8px;
+
+}
+
+.places1{
+display: flex;
+align-items: center;
+margin-right: 15px;
+
+
+
+}
+
+.places2{
+display: flex;
+align-items: center;
+margin-right: 15px;
+
+}
+@media (max-width: 760px) {
+.fix{
+align-items: center;
+display: inline-block;
+ 
+}
+
+}
+
+
+.places{
+display: flex;
+align-items: center;
+margin-right: 15px;
+
+}
+
+
+@media (min-width: 760px) {
+.pic{
+display: flex;
+ 
+}
+
+}
+@media (min-width: 760px) {
+.subject{
+display: flex;
+ 
+}
+
+}
+@media only screen and (max-width: 760px) {
+.citypicfix {
+ width: 100%;
+ 
+}
+}
+@media (min-width: 760px) {
+
+.place {
+ display: flex; 
+ 
+
+}
+
+}
