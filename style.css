@@ -1,8 +1,11 @@
 .sub, .sub1, .sub2{
     flex: 1;
 }
+body{
+    background-color: aquamarine;
+}
  
- body{
+ .MySelf{
      background-image: url("https://cdn.primedia.co.za/primedia-broadcasting/image/upload/c_fill,h_436,w_700/txzhvy8dgxs9l5jcr0d7");
  background-repeat: no-repeat;
  background-size: cover;
@@ -53,14 +56,7 @@ margin-right: -50px;
     
     }
 
-/* .fix{
-display: flex;
-align-items: center;
-margin-left: 200px;
 
-
-
-} */
 table{
 border-collapse: collapse;
 width: 50%;
@@ -135,4 +131,20 @@ display: flex;
 
 }
 
+}
+.join{
+    background-color: peru;
+    width: 16em;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+.join:hover{
+    background-color:yellowgreen;
+}
+.hhh1{
+    background-color: blue;
+    border-radius: 0.5em;
+    margin: 1em;
+    padding: 0.1em;
 }
